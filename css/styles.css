@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: red;
+  /* es background colori satestod aris da washalet mere  */
+}
+
+.perent {
+  display: grid;
+}
+
+/* hederi  */
+
+/* section  */
+
+/* footeri  */

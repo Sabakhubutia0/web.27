@@ -52,14 +52,16 @@ p {
 
 .font-row input {
   background-color: rgb(101, 101, 230);
+  color: white;
   outline: none;
 }
 
 .font-row input::placeholder {
-  color: black;
+  color: rgb(32, 27, 27);
 }
 .font-row textarea {
   background-color: blue;
+  color: white;
   outline: none;
 }
 
@@ -74,9 +76,7 @@ p {
 }
 
 .box3 {
-  background-color: blue;
   width: 100%;
-  border: 1px solid blue;
   color: white;
   display: grid;
   justify-content: center;

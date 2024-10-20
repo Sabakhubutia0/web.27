@@ -3,17 +3,117 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: red;
-  /* es background colori satestod aris da washalet mere  */
-}
-
-.perent {
-  display: grid;
-}
 
 /* hederi  */
 
 /* section  */
 
 /* footeri  */
+
+footer {
+  background-color: blue;
+}
+
+.box1 {
+  width: 100%;
+  border: 1px solid blue;
+  color: white;
+  display: grid;
+  gap: 30px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+.maps {
+  margin-top: 58px;
+}
+
+.perent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.box2 {
+  width: 100%;
+  border: 1px solid blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+a,
+h3,
+p {
+  color: white;
+}
+
+.font-row input {
+  background-color: rgb(101, 101, 230);
+  outline: none;
+}
+
+.font-row input::placeholder {
+  color: black;
+}
+.font-row textarea {
+  background-color: blue;
+  outline: none;
+}
+
+.phone,
+.gmail {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  background-color: blue;
+  width: 100%;
+  border: 1px solid blue;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  row-gap: 17px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #171717;
+  padding: 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.box4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item4 {
+  grid-column: -3/-1;
+}
+
+.art {
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  margin-right: 20px;
+  gap: 20px;
+}

@@ -167,3 +167,83 @@ button {
   margin-right: 20px;
   gap: 20px;
 }
+.container{
+  margin: 10px 20px;
+  position: relative;
+  width: 75%;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.servisebi1{
+  display: inline-block;
+  position: relative;
+  margin: 10px 20px;
+}
+.servisebi2{
+  display: inline-block;
+  position: relative;
+  margin: 10px 20px;
+}
+.servisebi3{
+  display: inline-block;
+  position: relative;
+  margin: 10px 20px;
+}
+.yvela-servisi-ertad{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 32px;
+}
+h4{
+  font-weight: bold;
+  font-size: 22px;
+}
+p{
+  font-size: 16px;
+}
+.square1{
+  width: 50px;
+  height: 50px;
+  background-color: #F9F9F9;
+  margin-top: 40px;
+  border-radius: 5cqi;
+}
+.square2{
+  width: 50px;
+  height: 50px;
+  background-color: #0A22F4;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.square3{
+  width: 50px;
+  height: 50px;
+  background-color: #F9F9F9;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.chvens-shesaxeb{
+  margin: 10px 20px;
+  position: relative;
+  width: 75%;
+  margin: auto;
+  padding: 70px 0;
+}
+.pirveliphoto{
+  max-width: 55%;
+  margin-top: 120px;
+  margin-left: 80px;
+  z-index: 1;
+}
+
+.chvens-shesaxeb2{
+  display: flex;
+}
+spam{
+  color: #0A22F4;
+}
